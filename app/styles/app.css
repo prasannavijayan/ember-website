@@ -1,1 +1,30 @@
 @import "components/terminal-code.css";
+
+.tomster-list .tomster-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tomster-filter {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tomster-filter li {
+  display: inline-block;
+}
+
+.center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tomster-image-container {
+  height: 300px;
+}
+
+.tomster-image {
+  max-height: 100%;
+  max-width: 100%;
+}
